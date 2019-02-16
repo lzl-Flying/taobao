@@ -1,0 +1,372 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.clear::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+body {
+	height: 1500px;
+}
+/*top style*/
+.top .dhl {
+	height: 35px;
+	background: #f5f5f5;
+}
+.top .dhl .dhl1 li {
+	float: left;
+}
+.top .dhl .dhl2 li {
+	float: left;
+}
+.top .dhl ul {
+	float: left;
+}
+.top .dhl .dhl1 {
+	height: 35px;
+	margin-left: 150px;
+}
+.top .dhl .dhl2 {
+	height: 35px;
+	margin-left: 400px;
+}
+.top .dhl ul li a {
+	text-decoration: none;
+	display: inline-block;
+	height: 35px;
+	padding-left: 20px;
+	font-size: 12px;
+	line-height: 35px;
+	color: #6c6c6c;
+}
+.top .dhl ul li a:hover {
+	color: #f40;
+}
+.top .dhl ul li .hong {
+	color: #f40;
+}
+/*输入框style*/
+.top .srk {
+	position: relative;
+}
+.top .srk a img {
+	position: absolute;
+	top: 32px;
+	left: 186px;
+	display: inline-block;
+	width: 142px;
+}
+.top .srk span {
+	display: inline-block;
+	width: 800px;
+	height: 90px;
+	margin-left: 420px;
+    margin-top: 20px;
+}
+.top .srk span .srk1 ul li {
+	display: inline-block;
+	width: 36px;
+	height: 22px;
+	font-size: 12px;
+	text-align: center;
+	}
+.top .srk span .srk1 ul li a {
+	color: #f40;
+	text-decoration: none;
+}
+.top .srk span .srk1 ul li .bb {
+	background: #ff5000;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	width: 36px;
+	height: 25px;
+}
+.top .srk span div form .cr {
+	width: 550px;
+	height: 40px;
+	border: 2px solid #ff5000;
+} 
+.top .srk span div form .ss {
+	width: 74px;
+	height: 40px;
+	background: #ff5000;
+	border: none;
+	margin-left: -5px;
+	margin-top: 2px;
+}
+.top .srk span div form {
+	position: relative;
+}
+
+.top .srk span div form img {
+	position: absolute;
+	top: 6px;
+	right: 255px;
+	height: 34px;
+}
+.top .srk span .dhl2 a {
+	font-size: 12px;
+	color: #6c6c6c;
+	margin-right: 4px;
+}
+.top .srk span .dhl2 a:hover {
+	color: #ff5000;
+}
+.top .srk span .dhl2 .gd {
+	margin-left: 55px;
+}
+
+/*middle style*/
+.middle {
+	background: rgb(244,244,244);
+}
+.middle .zhongdhl {
+	height: 30px;
+	background: #ff5000;
+	margin-top: 10px;
+}
+.middle .zhongdhl p {
+	float: left;
+	margin-left: 230px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+}
+.middle .zhongdhl ul li {
+	float: left;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+
+}
+.middle .zhongdhl ul .one {
+	margin-left: 60px;
+}
+.middle .zhongdhl ul li a {
+	text-decoration: none;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #fff;
+}
+.middle .box1 {
+	position: relative;
+}
+.middle .box1 .zhong {
+	height: 521px;
+	margin-left: 350px;
+	margin-right: 480px;
+}
+.middle .box1 .left {
+	position: absolute;
+	left: 159px;
+	top: 0px;
+	width: 190px;
+	height: 521px;
+	border: 1px solid #ff5000;
+	background: #fff;
+}
+.middle .box1 .right {
+	position: absolute;
+	top: 0px;
+	right: 189px;
+	width: 290px;
+	height: 521px;
+}
+.middle .box1 .left ul li {
+	height: 32px;
+	line-height: 32px;
+	padding-left: 25px;
+	padding-right: 19px;
+	color: #666;
+}
+.middle .box1 .left ul li:hover {
+	background: #ffe4dd;
+	color: #f40;
+}
+.middle .box1 .left ul li a:hover {
+	color: #f40;
+	text-decoration: underline;
+}
+.middle .box1 .left ul li a {
+	color: #666;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+.middle .box1 .zhong .on1 {
+	position: relative;
+}
+.middle .box1 .zhong .on1 .lbt1 img {
+	height: 280px;
+	margin: 8px;
+	display: block;
+}
+.middle .box1 .zhong .on1 .lbt2 img {
+	height: 280px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.middle .box1 .zhong .on2 .logo {
+	width: 520px;
+	margin-left: 8px;
+}
+.middle .box1 .zhong .on2 .lbt3 img {
+	height: 200px;
+	margin-left: 8px;
+}
+.middle .box1 .zhong .on2 {
+	position: relative;
+}
+.middle .box1 .zhong .on2 .lbt4 img {
+    width: 160px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+.middle .box1 .right {
+	background: #fff;
+}
+.middle .box1 .right .rt img {
+	width: 290px;
+} 
+.middle .box1 .right .rt p {
+	width: 290px;
+	height: 40px;
+	background: #fff;
+
+}
+.middle .box1 .right .rt p a {
+	display: inline-block;
+	width: 80px;
+	height: 25px;
+	background: #ff5000;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 25px;
+	text-decoration: none;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+.middle .box1 .right .rt div a {
+	display: inline-block;
+	width: 290px;
+	height: 26px;
+	background: #ffe4dd;
+	color: #f40;
+	font-size: 12px;
+	text-align: center;
+	line-height: 26px;
+	text-decoration: none;
+}
+.middle .box1 .right .rm div {
+	margin-top: 15px;
+}
+.middle .box1 .right .rm div a {
+	display: inline-block;
+	width: 32px;
+	height: 20px;
+	color: #3c3c3c;
+	text-align: center;
+	line-height: 20px;
+	font-size: 13px;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.middle .box1 .right .rm p a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #3c3c3c;
+}
+.middle .box1 .right .rm p {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	margin-left: 10px;
+}
+.middle .box1 .right .rm p .al {
+	margin-left: 10px;
+}
+.middle .box1 .right .rb {
+	width: 290px;
+	height: 235px;
+}
+.middle .box1 .right .rb a {
+	float: left;
+	display: inline-block;
+	width: 72px;
+	height: 79px;
+}
+.middle .box1 .right .rb a img {
+	width: 72px;
+}
+/*bottom style*/
+.bottom {
+	position: relative;
+	margin-top: 12px;
+	height: 99px;
+	border: 1px solid #fff;
+}
+.bottom .bl {
+	display: inline-block;
+	width: 879px;
+	height: 99px;
+	margin-left: 159px;
+}
+.bottom .bl .bltp1 {
+	position: absolute;
+	top: 0px;
+	left: 159px;
+    height: 99px;
+}
+.bottom .bl .bltp2 {
+	position: absolute;
+	left: 355px;
+	top: 12px;
+	height: 74px;
+}
+.bottom .bl span {
+	display: inline-block;
+	width: 525px;
+	height: 99px;
+	margin-left: 350px;
+}
+.bottom .bl span .tt1 {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #333;
+	height: 28px;
+}
+.bottom .bl span .tt2 {
+	font-size: 14px;
+	color: #999;
+	height: 36px;
+}
+.bottom .br {
+	position: absolute;
+	top: 0px;
+	right: 190px;
+	display: inline-block;
+	width: 289px;
+	height: 99px;
+}
+.bottom .br p {
+	height: 30px;
+	font-size: 14px;
+    padding-left: 14px; 
+    color: #3c3c3c;
+    line-height: 30px; 
+}
+.bottom .br a img {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	padding-left: 18px;
+}
